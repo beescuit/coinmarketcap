@@ -1,0 +1,15 @@
+{
+  "name": "coinmarketcap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prices.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "node-coinmarketcap": "^0.2.0"
+  }
+}
