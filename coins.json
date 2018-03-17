@@ -1,0 +1,16 @@
+{
+    "BTC": "yellow",
+    "ETH": "grey",
+    "BCH": "green",
+    "XRP": "cyan",
+    "LTC": "bold",
+    "ADA": "blue",
+    "MIOTA": "bold",
+    "DASH": "blue",
+    "XEM": "cyan",
+    "XMR": "red",
+    "NEO": "green",
+    "XLM": "white",
+    "EOS": "grey",
+    "default": "white"
+}
