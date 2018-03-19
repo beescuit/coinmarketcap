@@ -5,8 +5,7 @@ const coincfg = require('./coins.json');
 
 coinmarketcap.multi(coins => {
   coins.getTop(10).forEach(function (coin) {
-    var color;
-    color = (coincfg[coin.symbol]) ? coincfg[coin.symbol] : coincfg.default
+    var color = (coincfg[coin.symbol]) ? coincfg[coin.symbol] : coincfg.default;
     var sym = coin.symbol;
     if (coin.symbol.length < 5) {
       for (var i = 0; i < 5-coin.symbol.length; i++) {
